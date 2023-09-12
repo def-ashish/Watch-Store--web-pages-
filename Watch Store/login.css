@@ -1,0 +1,148 @@
+* {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+body {
+    align-items: center;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.header_f_box {
+    background-color: black;
+    height: 50px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+li {
+    margin-top: 5px;
+    font-size: 1.5rem;
+    margin-left: 5rem;
+}
+
+a:hover {
+    color: rgba(245, 245, 245, 0.606);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    background: transparent;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    width: 75%;
+    height: 900px;
+}
+
+label {
+    background: transparent;
+    font-size: 20px;
+    margin-right: 550px;
+}
+
+input {
+    background: transparent;
+    border: 3px solid white;
+    text-align: center;
+    width: 70%;
+    height: 7%;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+input::placeholder {
+    color: white;
+}
+
+.login-head {
+    background: transparent;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.name {
+    margin-top: 10px;
+}
+
+.mobile-no {
+    margin-top: -5px;
+}
+
+p {
+    margin-top: 20px;
+    background: transparent;
+    font-size: 20px;
+    margin-right: 510px;
+}
+
+textarea {
+    background: transparent;
+    font-size: 20px;
+    border: 2px solid white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+textarea::placeholder {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.submit {
+    width: 40%;
+    height: 6%;
+    margin-top: 20px;
+    cursor: pointer;
+    background: transparent;
+    border: 3px solid white;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.e-head{
+    margin-right: 550px;
+}
+
+.submit:hover{
+    background-color: grey;
+    color: whitesmoke;
+    font-style: oblique;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+input:hover{
+    background-color: grey;
+    color: whitesmoke;
+    cursor: pointer;
+    font-style: oblique;
+    font-weight: 600;
+}
+
+textarea:hover{
+    background-color: grey;
+    color: whitesmoke;
+    cursor: pointer;
+    font-style: oblique;
+    font-weight: 600;
+}

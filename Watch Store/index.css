@@ -1,0 +1,793 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.header_f_box {
+    background-color: black;
+    height: 50px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    margin-top: 5px;
+    font-size: 1.5rem;
+    margin-left: 5rem;
+}
+
+a:hover {
+    color: rgba(245, 245, 245, 0.606);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.login:hover {
+    background-color: rgba(0, 128, 0, 0.575);
+    font-weight: 600;
+    color: rgba(245, 245, 245, 0.569);
+}
+
+#Searchbar:hover {
+    background-color: rgb(12, 12, 12);
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+    background: transparent;
+}
+
+.searcharea {
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+#Searchbar {
+    width: 40%;
+    height: 2rem;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+}
+
+.login {
+    width: 5rem;
+    height: 2rem;
+    background-color: darkgreen;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+main {
+    margin-top: 20px;
+}
+
+.pic {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.pictures {
+    background: url(./11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1100px;
+    height: 500px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 11px grey;
+    border-radius: 20px;
+}
+
+.box3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
+.centrepic {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    column-gap: 5.5rem;
+    background: transparent;
+}
+
+.subbox1 {
+    width: 200px;
+    height: 200px;
+    background: transparent;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#box-image1 {
+    width: 200px;
+    height: 200px;
+
+}
+
+.subbox2 {
+    width: 200px;
+    height: 200px;
+    background: transparent;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#box-image2 {
+    width: 200px;
+    height: 200px;
+}
+
+.subbox3 {
+    width: 200px;
+    height: 200px;
+    background: transparent;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#box-image3 {
+    width: 200px;
+    height: 200px;
+}
+
+#products {
+    color: white;
+    text-align: center;
+    font-size: 120px;
+    opacity: 5%;
+    z-index: 2;
+}
+
+#products-2 {
+    color: white;
+    z-index: 1;
+    font-size: 55px;
+    background: transparent;
+    margin-top: -75px;
+}
+
+.products {
+    text-align: center;
+    justify-content: center;
+    background: transparent;
+}
+
+.pices-center {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.prices {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    column-gap: 5.5rem;
+    background: transparent;
+}
+
+.price-1 {
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#about-us {
+    height: 200px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.heading {
+    /* display: flex; */
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.heading-about {
+    color: white;
+    text-align: center;
+    font-size: 150px;
+    opacity: 5%;
+    z-index: 2;
+}
+
+.heading-about2 {
+    color: white;
+    z-index: 1;
+    margin-top: -95px;
+    font-size: 65px;
+}
+
+.paragraph {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+
+#para-1 {
+    color: white;
+    width: 75%;
+    margin-top: 100px;
+}
+
+.coming-soon {
+    height: 200px;
+    width: 100%;
+    margin-top: 150px;
+}
+
+.heading-come {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.heading-coming {
+    color: white;
+    text-align: center;
+    font-size: 150px;
+    opacity: 5%;
+    z-index: 2;
+}
+
+.heading-coming2 {
+    color: white;
+    z-index: 1;
+    margin-top: -95px;
+    font-size: 65px;
+}
+
+.coming-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-top: 130px;
+    background: transparent;
+}
+
+.coming-main1 {
+    display: grid;
+    width: 70%;
+    grid-template-columns: auto auto;
+    column-gap: 40px;
+    background: transparent;
+    margin-top: 23px;
+    margin-right: 139px;
+}
+
+.coming-center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: transparent;
+}
+
+.para-2 {
+    color: white;
+    text-align: justify;
+    width: 500px;
+    background: transparent;
+}
+
+.coming-image1 {
+    width: 250px;
+    height: 250px;
+    margin-top: -60px;
+    background: transparent;
+}
+
+.image-1 {
+    width: 250px;
+    height: 250px;
+    background: transparent;
+}
+
+.coming-center2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    background: transparent;
+    text-align: center;
+}
+
+.para-3 {
+    color: white;
+    text-align: justify;
+    width: 500px;
+    background: transparent;
+}
+
+.coming-image2 {
+    width: 250px;
+    background: transparent;
+    height: 250px;
+    margin-top: -60px;
+}
+
+.image-2 {
+    width: 250px;
+    height: 250px;
+    background: transparent;
+}
+
+.coming-main2 {
+    display: grid;
+    width: 70%;
+    grid-template-columns: auto auto;
+    column-gap: 40px;
+    background: transparent;
+    margin-right: 149px;
+}
+
+.head-contact {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 650px;
+}
+
+.heading-contact-1 {
+    color: white;
+    text-align: center;
+    font-size: 150px;
+    opacity: 5%;
+    z-index: 2;
+}
+
+.heading-contact-2 {
+    color: white;
+    z-index: 1;
+    margin-top: -95px;
+    font-size: 65px;
+}
+
+.pictures-2 {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.grid-contact {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    background: transparent;
+    column-gap: 5rem;
+}
+
+.contact-pic-1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.contact-img-1 {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.contact-pic-2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.contact-img-2 {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.contact-pic-3 {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.contact-img-3 {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.contact-pic-4 {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.contact-img-4 {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.contact-pic-5 {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.contact-img-5 {
+    width: 50px;
+    cursor: pointer;
+    height: 50px;
+}
+
+.contact-pic-6 {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.contact-img-6 {
+    width: 50px;
+    height: 50px;
+}
+
+.para-4 {
+    color: white;
+    text-align: center;
+}
+
+.para-4-center {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.head-team {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.heading-team-1 {
+    color: white;
+    text-align: center;
+    font-size: 150px;
+    opacity: 5%;
+    z-index: 2;
+}
+
+.heading-team-2 {
+    color: white;
+    z-index: 1;
+    margin-top: -95px;
+    font-size: 65px;
+}
+
+.photos-our-team-center {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photos-our-team {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    background: transparent;
+    column-gap: 100px;
+    margin-left: 80px;
+}
+
+.photo-1 {
+    border-radius: 100px;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+
+.photo-2 {
+    border-radius: 100px;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+
+.photo-3 {
+    border-radius: 100px;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+
+.photo-team-1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 2px solid white;
+    background-color: white;
+}
+
+.photo-team-2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 2px solid white;
+}
+
+.photo-team-3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 2px solid white;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    height: 300px;
+    background: transparent;
+    margin-top: 200px;
+    box-shadow: 1px 1px 11px grey;
+}
+
+.payment {
+    width: 50%;
+    margin-left: 30px;
+    background: transparent;
+}
+
+.float-right {
+    background: transparent;
+    float: right;
+}
+
+.payment-head {
+    color: white;
+    background: transparent;
+    font-size: 40px;
+}
+
+.radio-center {
+    background: transparent;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+label {
+    background: transparent;
+}
+
+#debit {
+    margin-left: 20px;
+}
+
+#upi {
+    margin-left: 20px;
+}
+
+.email {
+    background: transparent;
+}
+
+.email-head {
+    background: transparent;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.email-input {
+    background: transparent;
+    color: white;
+}
+
+.email-input-box {
+    background: transparent;
+    border: 1px solid transparent;
+    border-bottom: 2px solid white;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.email-input-box:active{
+    border: 1px solid transparent;
+    border-bottom: 2px solid white;
+}
+
+.submit {
+    background: transparent;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    width: 84%;
+}
+
+.submit-input {
+    width: 5rem;
+    height: 2rem;
+    background-color: darkgreen;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.submit-input:hover {
+    background-color: rgb(0, 79, 0);
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
+.submit-2:hover {
+    background-color: rgb(0, 79, 0);
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
+.footer-menu {
+    background: transparent;
+    width: 50%;
+}
+
+.list-menu {
+    background: transparent;
+}
+
+.sign {
+    background: transparent;
+    list-style: none;
+}
+
+.sign-a {
+    color: white;
+}
+
+.sign-a:hover {
+    color: rgba(255, 255, 255, 0.779);
+}
+
+.feedback-head {
+    background: transparent;
+    list-style: none;
+    margin-top: 10px;
+    color: white;
+}
+
+.feedback {
+    background: white;
+    margin-top: 10px;
+    border: 2px solid white;
+}
+
+.submit-2-box {
+    background: transparent;
+    list-style: none;
+}
+
+.submit-2 {
+    width: 5rem;
+    height: 2rem;
+    background-color: darkgreen;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+li {
+    background: transparent;
+    list-style: none;
+    color: white;
+}
+
+.number {
+    margin-top: 16px;
+}
+
+#services-center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: transparent;
+}
+
+.head-services {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.heading-services-1 {
+    color: white;
+    text-align: center;
+    font-size: 150px;
+    opacity: 5%;
+    z-index: 2;
+}
+
+.heading-services-2 {
+    color: white;
+    z-index: 1;
+    margin-top: -95px;
+    font-size: 65px;
+}
+
+.center-services {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.services-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20rem;
+    background: transparent;
+}
+
+.services-1 {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+
+.services-1:hover{
+    box-shadow: 4px 4px 11px grey;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.services-pic-1 {
+    width: 200px;
+    height: 200px;
+}
+
+.services-2 {
+    width: 200px;
+    height: 200px;
+    background: transparent;
+    padding: 10px;
+}
+
+.services-2:hover{
+    box-shadow: 4px 4px 13px grey;
+    cursor: pointer;
+    border-radius: 20px;
+    background: transparent;
+}
+
+.services-pic-2 {
+    width: 200px;
+    height: 200px;
+}
+
+img:hover{
+    cursor: pointer;
+}

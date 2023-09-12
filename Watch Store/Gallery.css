@@ -1,0 +1,294 @@
+* {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.header_f_box {
+    background-color: black;
+    height: 50px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+li {
+    margin-top: 5px;
+    font-size: 1.5rem;
+    margin-left: 5rem;
+}
+
+a:hover {
+    color: rgba(245, 245, 245, 0.606);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    background: transparent;
+}
+
+.login {
+    width: 5rem;
+    height: 2rem;
+    background-color: darkgreen;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.login:hover{
+    background-color: rgba(0, 128, 0, 0.575);
+    font-weight: 600;
+    color: rgba(245, 245, 245, 0.569);
+}
+
+.gallery-head-center {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery-head {
+    font-size: 100px;
+    color: white;
+}
+
+.box3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+    margin-left: 80px;
+    flex-wrap: wrap;
+}
+
+.centrepic {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    column-gap: 5.5rem;
+    background: transparent;
+}
+
+.subbox1 {
+    width: 200px;
+    height: 200px;
+    background: transparent;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#box-image1 {
+    width: 200px;
+    height: 200px;
+
+}
+
+.subbox2 {
+    width: 200px;
+    height: 200px;
+    background: transparent;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#box-image2 {
+    width: 200px;
+    height: 200px;
+}
+
+.subbox3 {
+    width: 200px;
+    height: 200px;
+    background: transparent;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#box-image3 {
+    width: 200px;
+    height: 200px;
+}
+
+#products {
+    color: white;
+    text-align: center;
+    font-size: 120px;
+    opacity: 5%;
+    z-index: 2;
+}
+
+#products-2 {
+    color: white;
+    z-index: 1;
+    font-size: 55px;
+    background: transparent;
+    margin-top: -75px;
+}
+
+.products {
+    text-align: center;
+    justify-content: center;
+    background: transparent;
+}
+
+.pices-center {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.prices {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    column-gap: 5.5rem;
+    background: transparent;
+}
+
+.price-1 {
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#box-image4 {
+    width: 170px;
+    height: 200px;
+    margin-left: 15px;
+}
+
+#box-image5 {
+    width: 200px;
+    height: 200px;
+}
+
+#box-image6 {
+    width: 180px;
+    margin-left: 13px;
+    height: 200px;
+}
+
+#box-image7 {
+    width: 155px;
+    margin-left: 27px;
+    height: 200px;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+    margin-left: 80px;
+    flex-wrap: wrap;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 80px;
+    flex-wrap: wrap;
+}
+
+button {
+    width: 7rem;
+    height: 2rem;
+    font-weight: 600;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.button-center {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    font-style: oblique;
+    font-weight: 600;
+}
+
+.pic {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.pictures {
+    background: url(./12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1100px;
+    height: 500px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 11px grey;
+    border-radius: 20px;
+}
+
+.watch-center {
+    display: flex;
+    justify-content: center;
+    background: transparent;
+}
+
+.watch-box {
+    width: 500px;
+    height: 500px;
+    background: transparent;
+}
+
+.watch-pic {
+    width: 500px;
+    height: 500px;
+    background: transparent;
+    margin-top: 100px;
+}
+
+.price-2{
+    color: white;
+    margin-top: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.shop-now-2{
+    width: 17rem;
+    height: 3rem;
+    font-weight: 600;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-style: italic;
+}
+
+img{
+    cursor: pointer;
+}

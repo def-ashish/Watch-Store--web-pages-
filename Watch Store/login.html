@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="header_f_box">
+            <ul>
+                <li>
+
+                    <a href="./Index.html" target="_blank">Home</a>
+
+                </li>
+
+                <li>
+
+                    <a href="./Index.html#services-center" target="_blank">Services</a>
+
+                </li>
+
+                <li>
+
+                    <a href="./Gallery.html" target="_blank">Gallery </a>
+
+                </li>
+
+                <li>
+
+                    <a href="./Index.html#about-us" target="_blank">About Us </a>
+
+                </li>
+
+
+            </ul>
+
+        </div>
+
+    </header>
+
+    <form>
+        <div class="form">
+
+            <h1 class="login-head">Login form</h1>
+
+            <label>Name</label><br>
+            <input type="text" name="name" class="name" placeholder="Enter your name" required><br>
+
+            <p>Mobile No.</p><br>
+            <input type="text" name="mobile-no." class="mobile-no" placeholder="Enter your mobile no." required
+                pattern="[1-9]{1}[0-9]{9}"><br>
+
+            <p class="e-head">E-mail</p><br>
+            <input type="email" name="e-mail" class="email" placeholder="Enter your email" required><br>
+
+
+            <p>Feedback</p><br>
+            <textarea name="feedback" class="feedback" cols="63" rows="9"
+                placeholder="Enter your feedback here"></textarea>
+
+
+            <button class="submit" value="Button name" onclick="window.open('Index.html')">Submit</button>
+
+
+
+
+
+        </div>
+    </form>
+
+</body>
+
+</html>
